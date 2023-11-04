@@ -2,7 +2,7 @@
 import Link from "next/link"
 
 // icons
-import {RiYoutubeLine, RiInstagramLine, RiFacebookBoxLine, RiDribbbleLine, RiBehanceLine, RiPinterestLine, RiLinkedinLine, RiGithubLine} from 'react-icons/ri'
+import {RiInstagramLine, RiFacebookBoxLine, RiLinkedinLine, RiGithubLine} from 'react-icons/ri'
 
 
 const Socials = () => {

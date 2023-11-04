@@ -52,5 +52,17 @@
 
 
 .motion-trans {
-  @apply fixed top-0 bottom-0 right-full w-screen h-screen
+  @apply fixed top-0 bottom-0 right-full w-screen h-screen;
+}
+
+.counter-num {
+  @apply relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0;
+}
+
+.counter-colors {
+  @apply text-2xl xl:text-4xl font-extrabold text-accent mb-2;
+}
+
+.counter-text {
+  @apply text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px];
 }
